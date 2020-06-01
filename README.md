@@ -1,6 +1,8 @@
 # Maintenance
 
-A simple maintenance page in a simple docker image.
+Une simple page de maintenance dans une simple image docker.
+Français et Anglais
+Fork de [wickerlabs/maintenance!](https://github.com/Alusio/maintenance)
 
 ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/wickerlabs/maintenance?style=for-the-badge) 	![MicroBadger Size](https://img.shields.io/microbadger/image-size/wickerlabs/maintenance?style=for-the-badge) 	![MicroBadger Layers](https://img.shields.io/microbadger/layers/wickerlabs/maintenance?style=for-the-badge)
 
