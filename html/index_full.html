@@ -1,5 +1,8 @@
 <!doctype html>
 <meta charset="UTF-8">
+<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
 
 <head>
   <title>{{title}}</title>
@@ -44,16 +47,28 @@
 </head>
 
 <body>
-
-  <article>
-    <h1>Nous revenons bientôt !</h1>
-    <h1>We&rsquo;ll be back soon!</h1>
-    <div>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="error-template">
+                <h1>Oops!</h1>
+    <h2>Nous revenons bientôt !</h2>
+    <h2>We&rsquo;ll be back soon !</h2>
+                <div>
        <p>Désolé pour la gêne occasionnée, mais nous effectuons actuellement une maintenance. Nous serons de retour en ligne sous peu!</p>
       <hr>
       <p>Sorry for the inconvenience but we&rsquo;re performing some maintenance at the moment. We&rsquo;ll be back online shortly!</p>
       <p>&mdash; {{team_name}}</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-6">
+<img src="https://cdn.dribbble.com/users/49067/screenshots/3710403/maintenance-panel800600.gif" class="img-fluid" alt="Responsive image" style="width: 130%">
+        </div>
     </div>
-  </article>
+</div>
 
 </body>
+
+
